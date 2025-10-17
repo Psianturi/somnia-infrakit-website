@@ -45,5 +45,3 @@ Official website for Somnia Infra Kit — a complete infrastructure toolkit for 
 ## Contribution
 Pull requests and issues are welcome for improvements and new features.
 
-## License
-© 2025 Psianturi & Somnia Team

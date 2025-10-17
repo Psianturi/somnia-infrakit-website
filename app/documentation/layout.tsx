@@ -9,7 +9,7 @@ const docsMenu = [
 
 export default function DocsLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-100 flex">
+    <div className="min-h-[100dvh] bg-gray-950 text-gray-100 flex">
       <aside className="w-64 bg-gray-900 border-r border-gray-800 p-6 hidden md:block">
         <h2 className="text-2xl font-bold mb-8">Documentation</h2>
         <nav className="space-y-4">

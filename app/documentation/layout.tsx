@@ -20,7 +20,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
           ))}
         </nav>
       </aside>
-      <main className="flex-1 p-6 md:p-12 max-w-3xl mx-auto">
+      <main className="flex-1 p-6 md:p-12 overflow-auto">
         {children}
       </main>
     </div>

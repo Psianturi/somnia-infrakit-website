@@ -1,4 +1,4 @@
-import DocsLayout from './layout';
+import DocsLayout from '../layout';
 
 export default function Demo() {
   return (

@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>© 2024 Somnia Infra Kit. MIT License. Built with ❤️ for Somnia Blockchain</p>
+          <p>© 2025 Somnia Infra Kit.  Built with ❤️ for Somnia Blockchain</p>
         </div>
       </div>
     </footer>

@@ -1,8 +1,7 @@
-import DocsLayout from '../layout';
 
 export default function Demo() {
   return (
-    <DocsLayout>
+    <>
       <h1 className="text-3xl font-bold mb-4">Demo</h1>
       <ol className="list-decimal list-inside space-y-2 mb-6">
         <li>Install CLI: <code className="bg-gray-800 px-2 py-1 rounded text-green-400">npm install -g @somnia/agent-cli</code></li>
@@ -13,6 +12,6 @@ export default function Demo() {
         <li>Verify (optional): <code className="bg-gray-800 px-2 py-1 rounded text-green-400">somnia-cli verify &lt;contract-address&gt;</code></li>
       </ol>
       <p>For advanced usage, see the DeFi Agent demo in the CLI docs.</p>
-    </DocsLayout>
+    </>
   );
 }

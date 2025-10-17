@@ -1,8 +1,7 @@
-import DocsLayout from '../layout';
 
 export default function GettingStarted() {
   return (
-    <DocsLayout>
+    <>
       <h1 className="text-3xl font-bold mb-4">Getting Started</h1>
       <p className="mb-4">Welcome to the Somnia Agent CLI documentation! Follow these steps to get started:</p>
       <ol className="list-decimal list-inside space-y-2 mb-6">
@@ -23,6 +22,6 @@ export default function GettingStarted() {
         </li>
       </ol>
       <p>For more details, see the other sections in this documentation.</p>
-    </DocsLayout>
+    </>
   );
 }

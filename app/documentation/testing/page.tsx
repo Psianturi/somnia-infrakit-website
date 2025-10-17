@@ -1,8 +1,7 @@
-import DocsLayout from '../layout';
 
 export default function Testing() {
   return (
-    <DocsLayout>
+    <>
       <h1 className="text-3xl font-bold mb-4">Testing</h1>
       <ul className="list-disc list-inside space-y-2 mb-6">
         <li>Install and check CLI version</li>
@@ -13,6 +12,6 @@ export default function Testing() {
         <li>Validate configuration and error handling</li>
       </ul>
       <p>All commands should execute without errors and tests should pass for a valid setup.</p>
-    </DocsLayout>
+    </>
   );
 }

@@ -1,8 +1,7 @@
-import DocsLayout from '../layout';
 
 export default function Architecture() {
   return (
-    <DocsLayout>
+    <>
       <h1 className="text-3xl font-bold mb-4">Architecture</h1>
       <p className="mb-6">Somnia Agent CLI is structured in modular layers for flexibility and security:</p>
       <ul className="list-disc list-inside space-y-2 mb-6">
@@ -13,6 +12,6 @@ export default function Architecture() {
         <li><b>Somnia Blockchain:</b> Testnet deployment, contract verification, transaction broadcasting.</li>
       </ul>
       <p>See the CLI source for more technical details.</p>
-    </DocsLayout>
+    </>
   );
 }

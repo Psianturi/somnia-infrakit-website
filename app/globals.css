@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent;
+  }
+  
+  .glass {
+    @apply bg-gray-900/50 backdrop-blur-xl border border-gray-700;
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.4);
+  }
+}

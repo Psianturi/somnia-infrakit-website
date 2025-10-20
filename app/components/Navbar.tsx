@@ -21,6 +21,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-gray-300 hover:text-cyan-400 transition">Features</a>
             <a href="/documentation" className="text-gray-300 hover:text-cyan-400 transition">Documentation</a>
+            <a href="#deployment-status" className="text-gray-300 hover:text-cyan-400 transition">Live Demos</a>
             <a href="https://github.com/Psianturi/somnia-infra-kit" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition">GitHub</a>
             <a href="https://www.npmjs.com/package/somnia-ai-agent-cli" target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full text-white hover:from-cyan-600 hover:to-blue-600 transition font-medium">
               Get Started
@@ -38,6 +39,7 @@ export default function Navbar() {
           <div className="px-4 py-4 space-y-3">
             <a href="#features" className="block text-gray-300 hover:text-cyan-400">Features</a>
             <a href="/documentation" className="block text-gray-300 hover:text-cyan-400">Documentation</a>
+            <a href="#deployment-status" className="block text-gray-300 hover:text-cyan-400">Live Demos</a>
             <a href="https://github.com/Psianturi/somnia-infra-kit" target="_blank" rel="noopener noreferrer" className="block text-gray-300 hover:text-cyan-400">GitHub</a>
             <a href="https://www.npmjs.com/package/somnia-ai-agent-cli" target="_blank" rel="noopener noreferrer" className="block px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full text-white text-center font-medium">
               Get Started

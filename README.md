@@ -12,7 +12,7 @@ Official website for Somnia Infra Kit — a complete infrastructure toolkit for 
 
 1. **Clone the repository and install dependencies:**
    ```bash
-   git clone https://github.com/Psianturi/somnia-infrakit-website.git
+   git clone <repository-url>
    cd somnia-infrakit-web
    npm install
    ```
@@ -21,6 +21,25 @@ Official website for Somnia Infra Kit — a complete infrastructure toolkit for 
    npm run dev
    # Open http://localhost:3000
    ```
+
+## 🚀 Live Deployment
+
+The website is deployed and available at: **https://somnia-infrakit.vercel.app**
+
+## 🔗 Related Projects
+
+### [Somnia AI Agent CLI](https://github.com/Psianturi/somnia-infra-kit)
+The core CLI tool for creating, testing, and deploying AI agents on Somnia Blockchain.
+- **NPM Package**: `somnia-ai-agent-cli`
+- **Version**: v1.0.5
+- **Features**: Interactive project creation, multiple templates, built-in testing
+
+### [Somnia Agents Showcase](https://github.com/Psianturi/somnia-agents-showcase)
+Live demonstration projects showcasing various AI agent implementations.
+- **Live Deployments**: Demo agents deployed on Somnia testnet
+- **Contract Addresses**:
+  - `DemoBasicAgent`: `0x0ae8b1BF59127693819567f6Fb2EB47Fb7C3BAd4`
+  - `DemoDeFiAgent`: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
 
 ## Documentation
 - Available in the "Documentation" section of the website

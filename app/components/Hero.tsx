@@ -27,8 +27,8 @@ export default function Hero() {
             Install CLI
             <ArrowRight className="w-4 h-4" />
           </a>
-          <a href="#dashboard" className="px-8 py-4 bg-gray-800/50 border border-gray-600 rounded-full font-semibold text-white hover:bg-gray-700/50 transition flex items-center justify-center gap-2 backdrop-blur-sm">
-            View Dashboard
+          <a href="https://github.com/Psianturi/somnia-agents-showcase" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-gray-800/50 border border-gray-600 rounded-full font-semibold text-white hover:bg-gray-700/50 transition flex items-center justify-center gap-2 backdrop-blur-sm">
+            View Live Demos
           </a>
         </div>
 

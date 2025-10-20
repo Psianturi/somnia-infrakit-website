@@ -14,10 +14,55 @@ export default function GettingStarted() {
       </div>
 
       <div className="mb-8">
-        <h2 className="text-xl font-semibold mb-2">2. Create a New Agent Project</h2>
-        <p>Initialize a new agent project with interactive template selection:</p>
-        <pre className="bg-gray-900 text-green-400 rounded p-3 text-sm mb-4">somnia-cli init MyFirstAgent</pre>
-        <p>Navigate to your project folder:</p>
+        <h2 className="text-xl font-semibold mb-2">2. Choose Your Agent Type</h2>
+        <p>The CLI offers multiple ways to create agents based on your needs:</p>
+
+        <div className="mb-6">
+          <h3 className="text-lg font-medium mb-2 text-cyan-400">Quick Start Options</h3>
+          <div className="space-y-3">
+            <div className="bg-gray-800/50 rounded p-4">
+              <h4 className="font-medium text-white">Basic Agent</h4>
+              <p className="text-sm text-gray-300 mb-2">Simple autonomous agent with core functionality</p>
+              <pre className="bg-gray-900 text-green-400 rounded p-2 text-xs">somnia-cli init MyAgent</pre>
+              <p className="text-xs text-gray-400 mt-1">4 tests included</p>
+            </div>
+
+            <div className="bg-gray-800/50 rounded p-4">
+              <h4 className="font-medium text-white">DeFi Agent</h4>
+              <p className="text-sm text-gray-300 mb-2">Advanced agent with price monitoring and trading signals</p>
+              <pre className="bg-gray-900 text-green-400 rounded p-2 text-xs">somnia-cli init MyAgent --template defi</pre>
+              <p className="text-xs text-gray-400 mt-1">10 tests included</p>
+            </div>
+
+            <div className="bg-gray-800/50 rounded p-4">
+              <h4 className="font-medium text-white">NFT Agent</h4>
+              <p className="text-sm text-gray-300 mb-2">Agent for floor price tracking and NFT opportunities</p>
+              <pre className="bg-gray-900 text-green-400 rounded p-2 text-xs">somnia-cli init MyAgent --template nft</pre>
+              <p className="text-xs text-gray-400 mt-1">8 tests included</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-lg font-medium mb-2 text-cyan-400">Advanced Options</h3>
+          <div className="space-y-3">
+            <div className="bg-gray-800/50 rounded p-4">
+              <h4 className="font-medium text-white">Customization Wizard</h4>
+              <p className="text-sm text-gray-300 mb-2">Interactive feature selection from pre-built modules</p>
+              <pre className="bg-gray-900 text-green-400 rounded p-2 text-xs">somnia-cli init MyAgent --wizard</pre>
+              <p className="text-xs text-gray-400 mt-1">Choose from: staking, rewards, price monitoring, trading, governance</p>
+            </div>
+
+            <div className="bg-gray-800/50 rounded p-4 border border-cyan-400/30">
+              <h4 className="font-medium text-cyan-400">AI-Powered Custom Agent</h4>
+              <p className="text-sm text-gray-300 mb-2">Generate unique contracts using OpenAI GPT-4</p>
+              <pre className="bg-gray-900 text-green-400 rounded p-2 text-xs">somnia-cli custom-agent</pre>
+              <p className="text-xs text-gray-400 mt-1">Describe requirements in natural language</p>
+            </div>
+          </div>
+        </div>
+
+        <p className="mb-4">After choosing your agent type, navigate to your project:</p>
         <pre className="bg-gray-900 text-green-400 rounded p-3 text-sm mb-4">cd MyFirstAgent</pre>
         <p>Project structure:</p>
         <pre className="bg-gray-900 text-gray-200 rounded p-3 text-xs mb-4">src/  test/  script/  foundry.toml  .env.example  README.md</pre>

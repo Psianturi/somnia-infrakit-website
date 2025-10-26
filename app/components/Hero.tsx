@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto text-center">
         <div className="inline-flex items-center px-4 py-2 bg-cyan-500/10 border border-cyan-400/30 rounded-full mb-8">
           <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3 animate-pulse"></div>
-          <span className="text-sm text-cyan-400 font-medium">Now Available v1.0.5</span>
+          <span className="text-sm text-cyan-400 font-medium">Now Available v1.0.10</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-white">

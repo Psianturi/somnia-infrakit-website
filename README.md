@@ -31,7 +31,7 @@ The website is deployed and available at: **https://somnia-infrakit.vercel.app**
 ### [Somnia AI Agent CLI](https://github.com/Psianturi/somnia-infra-kit)
 The core CLI tool for creating, testing, and deploying AI agents on Somnia Blockchain.
 - **NPM Package**: `somnia-ai-agent-cli`
-- **Version**: v1.0.5
+- **Version**: v1.0.10
 - **Features**: Interactive project creation, multiple templates, built-in testing
 
 ### [Somnia Agents Showcase](https://github.com/Psianturi/somnia-agents-showcase)

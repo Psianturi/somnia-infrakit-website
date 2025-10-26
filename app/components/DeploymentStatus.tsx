@@ -3,6 +3,15 @@ import { ArrowRight } from 'lucide-react'
 export default function DeploymentStatus() {
   const deployments = [
     {
+      name: 'TestWorkflowAgent',
+      description: 'Latest deployment via GitHub Actions CI/CD workflow',
+      address: '0x...',
+      network: 'Somnia Testnet',
+      status: '✅ Live',
+      txHash: '0xc11bae6e25b78669e3a6738681b5469d4031136e8d2bede890693eb9fca11df2',
+      owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
+    },
+    {
       name: 'DemoBasicAgent',
       description: 'Simple autonomous agent with trigger functionality',
       address: '0x0ae8b1BF59127693819567f6Fb2EB47Fb7C3BAd4',
@@ -69,15 +78,28 @@ export default function DeploymentStatus() {
               </div>
 
               <div className="mt-6 pt-4 border-t border-gray-700">
-                <a
-                  href={`https://shannon-explorer.somnia.network/address/${deployment.address}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
-                >
-                  View on Explorer
-                  <ArrowRight className="w-4 h-4" />
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    href={`https://shannon-explorer.somnia.network/tx/${deployment.txHash}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition"
+                  >
+                    View Transaction
+                    <ArrowRight className="w-4 h-4" />
+                  </a>
+                  {deployment.address !== '0x...' && (
+                    <a
+                      href={`https://shannon-explorer.somnia.network/address/${deployment.address}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-green-400 hover:text-green-300 transition"
+                    >
+                      View Contract
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

@@ -3,7 +3,7 @@ export default function GettingStarted() {
   return (
     <>
       <h1 className="text-3xl font-bold mb-4">Getting Started</h1>
-      <p className="mb-4">This guide will help you set up the Somnia Agent CLI, create your first agent, and deploy it to the Somnia Blockchain. Make sure you have <b>Node.js 18+</b> installed.</p>
+      <p className="mb-4">This guide will help you set up the Somnia Infra Kit CLI, create your first agent, and deploy it to the Somnia Blockchain. Make sure you have <b>Node.js 18+</b> and <b>Foundry</b> installed.</p>
 
       <div className="mb-8">
         <h2 className="text-xl font-semibold mb-2">1. Install the CLI</h2>
@@ -80,8 +80,9 @@ export default function GettingStarted() {
 
       <div className="mb-8">
         <h2 className="text-xl font-semibold mb-2">4. Test Your Agent</h2>
-        <p>Run the test suite locally:</p>
-        <pre className="bg-gray-900 text-green-400 rounded p-3 text-sm mb-4">somnia-cli test</pre>
+        <p>Install dependencies and run tests:</p>
+        <pre className="bg-gray-900 text-green-400 rounded p-3 text-sm mb-4">bash setup.sh
+forge test</pre>
         <p className="text-gray-400 text-xs">You should see all tests passing if setup is correct.</p>
       </div>
 

@@ -1,66 +1,57 @@
-# Somnia Infrakit Web
+# Somnia Infra Kit Website
 
-Official website for Somnia Infra Kit — a complete infrastructure toolkit for building, testing, and deploying Autonomous AI Agents on the Somnia Blockchain.
+Modern, responsive website for Somnia Infra Kit - the complete infrastructure toolkit for building autonomous AI agents on Somnia Blockchain.
 
 ## Features
-- Modern, responsive landing page
-- CLI documentation (Getting Started, Demo, Testing, Architecture)
-- Dark/Light mode toggle
-- Modular components (Next.js, Tailwind CSS)
 
-## Quick Start
+- **Modern Design**: Clean, professional design with gradient backgrounds and glass morphism
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast**: Built with Next.js 14 for optimal performance
+- **SEO Optimized**: Proper meta tags and structured data
 
-1. **Clone the repository and install dependencies:**
-   ```bash
-   git clone <repository-url>
-   cd somnia-infrakit-web
-   npm install
-   ```
-2. **Run locally:**
-   ```bash
-   npm run dev
-   # Open http://localhost:3000
-   ```
+## Tech Stack
 
-## 🚀 Live Deployment
+- **Framework**: Next.js 14 with TypeScript
+- **Styling**: Tailwind CSS with custom utilities
+- **Icons**: Lucide React
+- **Deployment**: Vercel ready
 
-The website is deployed and available at: **https://somnia-infrakit.vercel.app**
+## Development
 
-## 🔗 Related Projects
+```bash
+# Install dependencies
+npm install
 
-### [Somnia AI Agent CLI](https://github.com/Psianturi/somnia-infra-kit)
-The core CLI tool for creating, testing, and deploying AI agents on Somnia Blockchain.
-- **NPM Package**: `somnia-ai-agent-cli`
-- **Version**: v1.0.10
-- **Features**: Interactive project creation, multiple templates, built-in testing
+# Run development server
+npm run dev
 
-### [Somnia Agents Showcase](https://github.com/Psianturi/somnia-agents-showcase)
-Live demonstration projects showcasing various AI agent implementations.
-- **Live Deployments**: Demo agents deployed on Somnia testnet
-- **Contract Addresses**:
-  - `DemoBasicAgent`: `0x0ae8b1BF59127693819567f6Fb2EB47Fb7C3BAd4`
-  - `DemoDeFiAgent`: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+# Build for production
+npm run build
 
-## Documentation
-- Available in the "Documentation" section of the website
-- Includes: Getting Started, Demo, Testing, Architecture
-- Source: somnia-agent-cli-sandbox (private, not pushed to repo)
+# Start production server
+npm start
+```
 
-## Theme
-- Default: dark mode
-- Toggle to light mode available (top right corner)
+## Project Structure
 
-## Folder Structure
-- `app/` — Main pages, components, and documentation
-- `app/docs/` — Documentation pages (Next.js route)
-- `app/components/` — UI components (Navbar, Footer, ThemeToggle, etc)
-- `docs/` — CLI documentation source (private, gitignored)
+```
+├── app/
+│   ├── components/          # Reusable components
+│   ├── globals.css         # Global styles with Tailwind
+│   ├── layout.tsx          # Root layout
+│   └── page.tsx            # Homepage
+├── public/                 # Static assets
+└── tailwind.config.js      # Tailwind configuration
+```
 
-## Technology Stack
-- Next.js 13+
-- Tailwind CSS
-- React
+## Deployment
 
-## Contribution
-Pull requests and issues are welcome for improvements and new features.
+This website is optimized for deployment on Vercel:
 
+1. Push to GitHub
+2. Connect to Vercel
+3. Deploy automatically
+
+## License
+
+MIT License - Built with ❤️ for the Somnia ecosystem.

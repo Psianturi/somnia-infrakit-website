@@ -38,22 +38,22 @@ export default function Features() {
     <section id="features" className="py-24 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
             Everything You Need
           </h2>
-          <p className="text-xl text-gray-300">
+          <p className="text-xl text-gray-400">
             Complete infrastructure toolkit for Somnia Blockchain
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, i) => (
-            <div key={i} className="bg-gray-900/50 border border-gray-700 rounded-2xl p-8 hover:bg-gray-800/50 transition group backdrop-blur-sm">
-              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition text-white">
+            <div key={i} className="glass rounded-2xl p-8 hover:bg-white/10 transition group">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3 text-white">{feature.title}</h3>
-              <p className="text-gray-300">{feature.description}</p>
+              <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+              <p className="text-gray-400">{feature.description}</p>
             </div>
           ))}
         </div>

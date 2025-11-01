@@ -34,8 +34,8 @@ export default function Hero() {
           </div>
           <code className="text-sm text-green-400">
             <div>$ npm install -g somnia-ai-agent-cli</div>
-            <div>$ somnia-cli init MyFirstAgent</div>
-            <div>$ cd MyFirstAgent && somnia-cli deploy</div>
+            <div>$ somnia-cli init MyAgent && cd MyAgent</div>
+            <div>$ bash setup.sh && forge test && somnia-cli deploy</div>
           </code>
         </div>
       </div>

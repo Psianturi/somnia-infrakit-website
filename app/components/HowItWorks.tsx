@@ -10,14 +10,14 @@ export default function HowItWorks() {
     },
     {
       icon: <FileCode className="w-8 h-8" />,
-      title: 'Create Agent',
-      description: 'somnia-cli init MyAgent',
+      title: 'Create & Setup',
+      description: 'somnia-cli init MyAgent && bash setup.sh',
       color: 'from-pink-600 to-blue-600'
     },
     {
       icon: <TestTube className="w-8 h-8" />,
       title: 'Test Locally',
-      description: 'somnia-cli test',
+      description: 'forge test',
       color: 'from-blue-600 to-cyan-600'
     },
     {

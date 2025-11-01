@@ -3,17 +3,8 @@ import { ArrowRight } from 'lucide-react'
 export default function DeploymentStatus() {
   const deployments = [
     {
-      name: 'TestWorkflowAgent',
-      description: 'Latest deployment via GitHub Actions CI/CD workflow',
-      address: '0x...',
-      network: 'Somnia Testnet',
-      status: '✅ Live',
-      txHash: '0xc11bae6e25b78669e3a6738681b5469d4031136e8d2bede890693eb9fca11df2',
-      owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
-    },
-    {
-      name: 'DemoBasicAgent',
-      description: 'Simple autonomous agent with trigger functionality',
+      name: 'BasicAgent',
+      description: 'Simple autonomous agent with trigger functionality and frontend dashboard',
       address: '0x0ae8b1BF59127693819567f6Fb2EB47Fb7C3BAd4',
       network: 'Somnia Testnet',
       status: '✅ Live',
@@ -21,12 +12,30 @@ export default function DeploymentStatus() {
       owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
     },
     {
-      name: 'DemoDeFiAgent',
+      name: 'DefiAgent',
       description: 'Advanced DeFi price monitoring and trading signals',
-      address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
-      network: 'Local Anvil',
-      status: '✅ Deployed',
-      txHash: '0x6cca961d37334c04925992bce440065b6a80396ab44150408f1d929c4a27a02c',
+      address: '0x43B07bf47a4054eA0fd67Aaa191A6A651d81C1c7',
+      network: 'Somnia Testnet',
+      status: '✅ Live',
+      txHash: '0x...',
+      owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
+    },
+    {
+      name: 'YieldAgent',
+      description: 'Yield farming and auto-compound strategies for maximum returns',
+      address: '0x9Cfb5C822D80FCB714a707bD0916237277531FcE',
+      network: 'Somnia Testnet',
+      status: '✅ Live',
+      txHash: '0x...',
+      owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
+    },
+    {
+      name: 'NftAgent',
+      description: 'NFT floor price monitoring and trading opportunity detection',
+      address: '0xE454c9d2bA1b79Fa7E6dE5Cd9E267c71E58F12Ec',
+      network: 'Somnia Testnet',
+      status: '✅ Live',
+      txHash: '0x...',
       owner: '0x535EfE3671BB95C9cB2e0Dc77F7101A001476586'
     }
   ]
